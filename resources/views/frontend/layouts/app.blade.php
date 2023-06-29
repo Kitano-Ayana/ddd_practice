@@ -8,6 +8,8 @@
    <link rel="stylesheet" href="{{ ('/css/backend/app.css') }}">
 </head>
 <body>
-
+    <h1 class="text-3xl text-indigo-500 font-bold underline">
+        Hello world!
+  </h1>
 </body>
 </html>
