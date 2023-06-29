@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\App\Http\Backend\Users\controllers;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class AppHttpUserscontrollersUsersControleer extends Controller
+class UsersController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -34,7 +35,7 @@ class AppHttpUserscontrollersUsersControleer extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return view('users.index');
     }
 
     /**
